@@ -1,8 +1,6 @@
 Executive Summary:
-Project Name: YCC (Yezidi Cultural Center)Appointment Scheduling App
-Description: The YCC Appointment Scheduling App is a web-based application built using Ember CLI that allows users (clients)to view the office calendar, book new appointments, change existing appointments, and cancel appointments. It provides a user-friendly interface for clients to manage their appointments and offers efficient scheduling capabilities for a small office with two employees.
-
-
+YCC (Yezidi Cultural Center)Appointment Scheduling App
+The YCC Appointment Scheduling App is a web-based application built using Ember CLI that allows users (clients)to view the office calendar, book new appointments, change existing appointments, and cancel appointments. It provides a user-friendly interface for clients to manage their appointments and offers efficient scheduling capabilities for a small office with two employees.
 ## Prerequisites
 
 You will need the following things properly installed on your computer.
@@ -102,11 +100,13 @@ I should have access to a dedicated admin panel for managing user accounts.
 I can view, edit, or delete user accounts.
 I can set user roles and permissions, including admin roles.
 I can access logs and reports to monitor user activities.
+
 User Story 6: As an unregistered user, I want to sign up for an account so I can access the appointment scheduling system.
 Acceptance Criteria 6:
 There should be a clear and user-friendly registration form.
 I must provide a valid email address, username, and password.
 Upon successful registration, I should receive a confirmation email with an activation link.
+
 User Story 7: As a user, I want to receive email notifications for appointment confirmations, changes, and cancellations.
 
 Acceptance Criteria7:
@@ -130,7 +130,7 @@ Mitigation Criteria 2:
 •	Input Validation: Implement strict input validation to ensure that user-submitted data is within expected ranges and formats. This helps prevent injection attacks and data 
 Mitigation Criteria 3:
 •	Secure APIs: If your scheduling system uses APIs, ensure that they are secured and include rate limiting and authentication mechanisms. Verify API requests to prevent abuse.
-•	
+
 •	Data Backups: Regularly back up appointment data and critical system components to ensure data recovery in case of an attack or system disruption.
 
 Mockup Diagram 
