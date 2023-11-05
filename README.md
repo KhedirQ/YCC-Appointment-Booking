@@ -1,4 +1,4 @@
-Executive Summary:
+## Executive Summary:
 YCC (Yezidi Cultural Center)Appointment Scheduling App
 The YCC Appointment Scheduling App is a web-based application built using Ember CLI that allows users (clients)to view the office calendar, book new appointments, change existing appointments, and cancel appointments. It provides a user-friendly interface for clients to manage their appointments and offers efficient scheduling capabilities for a small office with two employees.
 ## Prerequisites
