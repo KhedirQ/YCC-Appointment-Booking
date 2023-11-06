@@ -35,7 +35,7 @@ You will need the following things properly installed on your computer.
 * `ember build --environment production` (production)
 
 ## License 
-
+This project is licensed under the
 ## Further Reading / Useful Links
 
 * [ember.js](https://emberjs.com/)
