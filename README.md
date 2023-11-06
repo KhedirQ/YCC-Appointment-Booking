@@ -113,9 +113,9 @@ Users should receive an email when an appointment is changed or canceled.
 The email notifications should include relevant details and instructions.
 
 ## Mis-User Stories
-## 1.	Mis-User Story 1: As an attacker, I want to gain unauthorized access to the admin panel so I can manipulate user data.
+1.	Mis-User Story 1: As an attacker, I want to gain unauthorized access to the admin panel so I can manipulate user data.
 
-## 2.	Mis-User Story 2: As a malicious user, I want to disrupt the scheduling system so appointments can't be booked.
+2.	Mis-User Story 2: As a malicious user, I want to disrupt the scheduling system so appointments can't be booked.
 
 ## Mitigation Criteria 1:
 •	Strong Authentication: Implement robust authentication mechanisms for admin access, such as multi-factor authentication (MFA) and strong password policies such as 
