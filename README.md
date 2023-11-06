@@ -97,7 +97,7 @@ I can view, edit, or delete user accounts.
 I can set user roles and permissions, including admin roles.
 I can access logs and reports to monitor user activities.
 
-## User Story 6:\
+## User Story 6:
 As an unregistered user, I want to sign up for an account so I can access the appointment scheduling system.
 ## Acceptance Criteria 6:
 There should be a clear and user-friendly registration form.
