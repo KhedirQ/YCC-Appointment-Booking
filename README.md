@@ -7,7 +7,7 @@ You will need the following things properly installed on your computer.
 
 * [Git](https://git-scm.com/)
 * [Node.js](https://nodejs.org/) (with npm)
-* [MongoDB]https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-7.0.4-signed.msi
+* [MongoDB](https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-7.0.4-signed.msi)
 * [Ember CLI](https://cli.emberjs.com/release/)
 * [Google Chrome](https://google.com/chrome/)
 
