@@ -16,9 +16,8 @@ You will need the following things properly installed on your computer.
 * git clone <repository-url>` this repository
 * open command prompt and type in mongod to run the MongoDB server
 * cd ycc-schedulingbackend and run the command prompt then type in node server.js
-* cd ycc-schedulingfrontend and run the command prompt then type in ember serve 
-* npm install
-* ember serve`
+* cd ycc-schedulingfrontend and run the command prompt then type in ember serve
+* Visit your backend app at [http://localhost:3000](http://localhost:3000).
 * Visit your frontend app at [http://localhost:4200](http://localhost:4200).
   
 
