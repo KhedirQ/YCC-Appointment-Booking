@@ -11,15 +11,6 @@ You will need the following things properly installed on your computer.
 * [Ember CLI](https://cli.emberjs.com/release/)
 * [Google Chrome](https://google.com/chrome/)
 
-## Running the application
-
-* git clone <repository-url>` this repository
-* open command prompt and type in mongod to run the MongoDB server
-* cd ycc-schedulingbackend and run the command prompt then type in node server.js
-* cd ycc-schedulingfrontend and run the command prompt then type in ember serve
-* Visit your backend app at [http://localhost:3000](http://localhost:3000).
-* Visit your frontend app at [http://localhost:4200](http://localhost:4200).
-  
 
 ## License 
 This project is licensed under (MIT) License
@@ -32,72 +23,70 @@ This project is licensed under (MIT) License
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
 ## Getting Started:
 
-The app provides the following key features:
-View the office calendar to check available appointment slots.
-Book new appointments on available slots.
-Change existing appointments by selecting a different time slot.
-Cancel appointments when necessary.
-Secure user authentication for access.
-A simple and intuitive user interface for managing appointments
-
+*git clone <repository-url>` this repository
+* open command prompt and type in mongod to run the MongoDB server
+* cd ycc-schedulingbackend and run the command prompt then type in node server.js
+* cd ycc-schedulingfrontend and run the command prompt then type in ember serve
+* Visit your backend app at [http://localhost:3000](http://localhost:3000).
+* Visit your frontend app at [http://localhost:4200](http://localhost:4200).
+  
 ## User Stories
 ## User Story 1:
-As a registered user, I want to view the office calendar so I can check available appointment slots.
+As a YCC user, I want to schedule an appointment, so that I can talk with YCC leadership.
+
 ## Acceptance Criteria 1:
-When I log in as a registered user, I should see a calendar view.
-The calendar should display dates and available appointment slots.
-I can click on a date to see the available time slots for that day.
-The available time slots should be clearly visible.
+1. The user login to YCC calander page, the user can view available appointment slots.
+2. User can click on a date to see the available time slots for that day.
+3. After viewing the available time slots, the member can select a date and time to book an appointment.
+Once booked, the appointment will appear on the members's dashboard.
+4. member will receive a confirmation email with the appointment details.
+
 
 ## User Story 2: 
-As a registered user, I want to book a new appointment so I can schedule a meeting with the office.
-## Acceptance Criteria 2:
-After viewing the available time slots, I can select a date and time for my appointment.
-I must provide a valid reason or description for the appointment.
-Once booked, the appointment should appear on my user dashboard.
-I should receive a confirmation email with the appointment details.
-
-## User Story 3: 
-As a registered user, I want to change an existing appointment so I can reschedule it to a different time.
+As a registered user, I want to be able to change an existing appointment so I can reschedule it to a different time.
 
 ## Acceptance Criteria 3:
-On my user dashboard, I should see a list of my existing appointments.
-I can select an appointment and choose to reschedule it.
-I must provide a new date and time for the appointment.
-The system should update the appointment details accordingly.
+1. The YCC system has a user dashboard for registered, signed-in, users.
+2. The user dashboard displays a list of existing appointments.
+3. Clicking an appointment in the dashboard takes the user to a detailed appointment page.
+4. The detailed appointment page contains the time and date. It also contains change appointment button.
+5. When the user clicks the change appointment button, a model pops up with "yes change" and "no dont change" buttons.
+6. If the user clicks "yes change" the system changes the appointment from the database and find an available alternative up the slot in the calendar.
+7. If the user clicks "no dont change" they are taken back to the appointment detail page.
+
 
 ## User Story 4: 
 As a registered user, I want to cancel an appointment so I can free up that time slot.
 
 ## Acceptance Criteria 4:
-On my user dashboard, I should see a list of my existing appointments.
-I can select an appointment and choose to cancel it.
-The system should prompt me for confirmation before canceling.
-Once confirmed, the appointment should be removed from my dashboard.
-
+1. The YCC system has a user dashboard for registered, signed-in, users.
+2. The user dashboard displays a list of existing appointments.
+3. Clicking an appointment in the dashboard takes the user to a detailed appointment page.
+4. The detailed appointment page contains the time and date. It also contains a cancel appointment button.
+5. When the user clicks the cancel appointment button, a model pops up with "yes. cancel" and "no dont cancel" buttons.
+6. If the user clicks "yes cancel" the system deletes the appointment from the database and frees up the slot in the calendar.
+7. If the user clicks "no dont cancel" they are taken back to the appointment detail page.
+   
 ## User Story 5:
 As a system administrator, I want to manage user accounts and access control to ensure the security and integrity of the system.
 
 ## Acceptance Criteria 5:
-I should have access to a dedicated admin panel for managing user accounts.
-I can view, edit, or delete user accounts.
-I can set user roles and permissions, including admin roles.
-I can access logs and reports to monitor user activities.
+1. YCC has administrator dashboard that  manages user accounts.
+2. YCC admin can view, edit, or delete user accounts.
+3. YCC Admin can set user roles and permissions, including admin roles.
+4. YCC admin can access logs and reports to monitor user activities.
 
 ## User Story 6:
 As an unregistered user, I want to sign up for an account so I can access the appointment scheduling system.
+
 ## Acceptance Criteria 6:
-There should be a clear and user-friendly registration form.
-I must provide a valid email address, username, and password.
-Upon successful registration, I should receive a confirmation email with an activation link.
+1. YCC allows non- registered users to login to the YCC page and view appointments page.
+2. New user can use sign up button to register.
+3. New user click on signup button, a new pop-up windows appears and asks user to enter name and valid email address.
+4. New user enters the required info and click on sign up button.
+5. Upon successful registration, the new user receives a confirmation email with an activation link.
 
-## User Story 7:
-As a user, I want to receive email notifications for appointment confirmations, changes, and cancellations.
 
-## Acceptance Criteria7:
-Users should receive an email confirmation when booking an appointment.
-Users should receive an email when an appointment is changed or canceled.
-The email notifications should include relevant details and instructions.
 
 ## Mis-User Stories
 1.	Mis-User Story 1: As an attacker, I want to gain unauthorized access to the admin panel so I can manipulate user data.
