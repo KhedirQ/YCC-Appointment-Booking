@@ -89,14 +89,14 @@ As an unregistered user, I want to sign up for an account so I can access the ap
 
 
 ## Mis-User Stories
-1.	Mis-User Story 1: As an attacker, I want to gain unauthorized access to the admin panel so I can manipulate user data.
+1.	Mis-User Story 1: As an attacker, I want to gain unauthorized access to the YCC admin panel so I can manipulate user data.
 
-2.	Mis-User Story 2: As a malicious user, I want to disrupt the scheduling system so appointments can't be booked.
+2.	Mis-User Story 2: As a malicious user, I want to disrupt the scheduling system so appointments can't be booked by using malicios code input like sql injection or buffer overflow and take over the system.
 
 ## Mitigation Criteria 1:
 •	Strong Authentication: Implement robust authentication mechanisms for admin access, such as multi-factor authentication (MFA) and strong password policies such as 
-o	Enforcing complex password requirements, such as a mix of uppercase and lowercase letters, numbers, and special characters.
-o	Enabling account lockout mechanisms after a certain number of failed login attempts
+  o	Enforcing complex password requirements, such as a mix of uppercase and lowercase letters, numbers, and special characters.
+  o	Enabling account lockout mechanisms after a certain number of failed login attempts
 
 
 ## Mitigation Criteria 2:
