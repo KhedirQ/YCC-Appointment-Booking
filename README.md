@@ -13,14 +13,14 @@ You will need the following things properly installed on your computer.
 
 ## Running the application
 
-* `git clone <repository-url>` this repository
-* `open command prompt and type in mongod to run the MongoDB server
-* `cd ycc-schedulingbackend and run the command prompt then type in node server.js
-*  `cd ycc-schedulingfrontend and run the command prompt then type in ember serve 
-* `npm install`
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
-* Visit your tests at [http://localhost:4200/tests](http://localhost:4200/tests).
+* git clone <repository-url>` this repository
+* open command prompt and type in mongod to run the MongoDB server
+* cd ycc-schedulingbackend and run the command prompt then type in node server.js
+* cd ycc-schedulingfrontend and run the command prompt then type in ember serve 
+* npm install
+* ember serve`
+* Visit your frontend app at [http://localhost:4200](http://localhost:4200).
+  
 
 ## License 
 This project is licensed under (MIT) License
