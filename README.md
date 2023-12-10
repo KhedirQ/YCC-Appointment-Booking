@@ -1,7 +1,7 @@
 ## Executive Summary:
 YCC (Yezidi Cultural Center)Appointment Scheduling App
 The YCC Appointment Scheduling App is a web-based application built using Ember CLI that allows users (clients)to view the office calendar, book new appointments, change existing appointments, and cancel appointments. It provides a user-friendly interface for clients to manage their appointments and offers efficient scheduling capabilities for a small office with two employees.
-## Prerequisites
+## Installation
 
 You will need the following things properly installed on your computer.
 
@@ -11,29 +11,16 @@ You will need the following things properly installed on your computer.
 * [Ember CLI](https://cli.emberjs.com/release/)
 * [Google Chrome](https://google.com/chrome/)
 
-## Installation
+## Running the application
 
 * `git clone <repository-url>` this repository
-* `cd ycc-scheduling`
+* `open command prompt and type in mongod to run the MongoDB server
+* `cd ycc-schedulingbackend and run the command prompt then type in node server.js
+*  `cd ycc-schedulingfrontend and run the command prompt then type in ember serve 
 * `npm install`
-
-## Running / Development
-
 * `ember serve`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
 * Visit your tests at [http://localhost:4200/tests](http://localhost:4200/tests).
-
-
-### Running Tests
-
-* `ember test`
-* `ember test --server`
-
-
-### Building
-
-* `ember build` (development)
-* `ember build --environment production` (production)
 
 ## License 
 This project is licensed under (MIT) License
