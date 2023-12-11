@@ -1,7 +1,11 @@
-<!-- app/templates/appointments.hbs -->
+<!-- app/templates/application.hbs -->
 
-<h2>Appointments</h2>
-{{@model}}
-{{#each @model as |appointment|}}
-  <p>{{appointment.date}} at {{appointment.time}}</p>
-{{/each}}
+<div style="text-align: center; padding-top: 20px;">
+  <img src="/YCC logo.png" alt="YCC Logo" style="width: 150px; height: auto;">
+</div>
+
+<h1 style="text-align: center;">Welcome to YCC Appointments</h1>
+
+{{outlet}}
+<LinkTo @route="appointments">Appointments</LinkTo>
+
