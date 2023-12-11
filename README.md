@@ -114,11 +114,13 @@ Home Page
 
 Blog page
 
-![image](https://github.com/KhedirQ/YCC-Appointment-Booking/assets/79780374/79ae31b3-c7f1-487b-a387-96a9ed05434c)
+<img width="569" alt="image" src="https://github.com/KhedirQ/YCC-Appointment-Booking-Frontend/assets/79780374/d6b09a82-d8d3-4845-ad86-8803d83bd488">
+
 
 Reservation Review info page 
 
-![image](https://github.com/KhedirQ/YCC-Appointment-Booking/assets/79780374/057842bc-0573-4168-a46b-529f4679fbc7)
+<img width="560" alt="image" src="https://github.com/KhedirQ/YCC-Appointment-Booking-Frontend/assets/79780374/3bd7123d-a21e-4a82-b678-7d7787538952">
+
 
 C4 Modeling 
 Context Diagram 
