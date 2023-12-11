@@ -35,8 +35,8 @@ This project is licensed under (MIT) License
 As a YCC user, I want to schedule an appointment, so that I can talk with YCC leadership.
 
 ## Acceptance Criteria 1:
-1. The user login to YCC calander page, the user can view available appointment slots.
-2. User can click on a date to see the available time slots for that day.
+1. The user logs in to YCC calander page to view available appointment slots.
+2. The User can click on a date to see the available time slots for that day.
 3. After viewing the available time slots, the member can select a date and time to book an appointment.
 Once booked, the appointment will appear on the members's dashboard.
 4. member will receive a confirmation email with the appointment details.
@@ -72,9 +72,9 @@ As a system administrator, I want to manage user accounts and access control to 
 
 ## Acceptance Criteria 4:
 1. YCC has administrator dashboard that  manages user accounts.
-2. YCC admin can view, edit, or delete user accounts.
-3. YCC Admin can set user roles and permissions, including admin roles.
-4. YCC admin can access logs and reports to monitor user activities.
+2. YCC administrator can view, edit, or delete user accounts.
+3. YCC administrator can set user roles and permissions, including admin roles.
+4. YCC administrator can access logs and reports to monitor user activities.
 
 ## User Story 5:
 As an unregistered user, I want to sign up for an account so I can access the appointment scheduling system.
