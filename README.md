@@ -130,4 +130,5 @@ Container Diagram
 
 Component Diagram 
 
-![image](https://github.com/KhedirQ/YCC-Appointment-Booking/assets/79780374/8686846d-4291-47d2-8848-3e0a82abca3d)
+![image](https://github.com/KhedirQ/YCC-Appointment-Booking/assets/79780374/dc2b2e8f-c8bb-4583-a9a6-c55c0319d530)
+
