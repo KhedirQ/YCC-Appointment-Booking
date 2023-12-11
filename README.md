@@ -45,7 +45,7 @@ Once booked, the appointment will appear on the members's dashboard.
 ## User Story 2: 
 As a registered user, I want to be able to change an existing appointment so I can reschedule it to a different time.
 
-## Acceptance Criteria 3:
+## Acceptance Criteria 2:
 1. The YCC system has a user dashboard for registered, signed-in, users.
 2. The user dashboard displays a list of existing appointments.
 3. Clicking an appointment in the dashboard takes the user to a detailed appointment page.
@@ -55,10 +55,10 @@ As a registered user, I want to be able to change an existing appointment so I c
 7. If the user clicks "no dont change" they are taken back to the appointment detail page.
 
 
-## User Story 4: 
+## User Story 3: 
 As a registered user, I want to cancel an appointment so I can free up that time slot.
 
-## Acceptance Criteria 4:
+## Acceptance Criteria 3:
 1. The YCC system has a user dashboard for registered, signed-in, users.
 2. The user dashboard displays a list of existing appointments.
 3. Clicking an appointment in the dashboard takes the user to a detailed appointment page.
@@ -67,19 +67,19 @@ As a registered user, I want to cancel an appointment so I can free up that time
 6. If the user clicks "yes cancel" the system deletes the appointment from the database and frees up the slot in the calendar.
 7. If the user clicks "no dont cancel" they are taken back to the appointment detail page.
    
-## User Story 5:
+## User Story 4:
 As a system administrator, I want to manage user accounts and access control to ensure the security and integrity of the system.
 
-## Acceptance Criteria 5:
+## Acceptance Criteria 4:
 1. YCC has administrator dashboard that  manages user accounts.
 2. YCC admin can view, edit, or delete user accounts.
 3. YCC Admin can set user roles and permissions, including admin roles.
 4. YCC admin can access logs and reports to monitor user activities.
 
-## User Story 6:
+## User Story 5:
 As an unregistered user, I want to sign up for an account so I can access the appointment scheduling system.
 
-## Acceptance Criteria 6:
+## Acceptance Criteria 5:
 1. YCC allows non- registered users to login to the YCC page and view appointments page.
 2. New user can use sign up button to register.
 3. New user click on signup button, a new pop-up windows appears and asks user to enter name and valid email address.
