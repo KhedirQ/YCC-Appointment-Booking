@@ -110,7 +110,8 @@ Mitigation Criteria 3:
 Mockup Diagram 
 Home Page
 
-![image](https://github.com/KhedirQ/YCC-Appointment-Booking/assets/79780374/3b46f91a-4b68-4636-a888-afec7aa28f15)
+<img width="572" alt="image" src="https://github.com/KhedirQ/YCC-Appointment-Booking-Frontend/assets/79780374/0fbfa71c-4b1d-4b76-bf1f-861c754c2eb0">
+
 Blog page
 
 ![image](https://github.com/KhedirQ/YCC-Appointment-Booking/assets/79780374/79ae31b3-c7f1-487b-a387-96a9ed05434c)
